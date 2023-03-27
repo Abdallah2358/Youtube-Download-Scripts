@@ -5,6 +5,7 @@
 ```ps
 pip install pytube
 pip install requests
+pip install youtube-dl
 ```
 
 # Usage 

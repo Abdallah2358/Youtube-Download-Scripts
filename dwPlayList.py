@@ -4,7 +4,7 @@
 # 2. cd to the folder where these files are present
 # 3. type - python ytdown.py
 # the script will start working
-
+# Credit to https://github.com/mohit23x/youtube-playlist-downloader
 
 import os
 from pytube import YouTube
@@ -65,7 +65,7 @@ def link_snatcher(url):
 
 BASE_DIR = os.getcwd()
 
-print('WELCOME TO PLAYLIST DOWNLOADER DEVELOPED BY - www.github.com/mohit0101')
+print('WELCOME TO PLAYLIST DOWNLOADER DEVELOPED BY - https://github.com/Abdallah2358/')
 def choose_res() ->str:
     url = str(input("Please Enter PlayList URL\n"))
     res_list = ['360p','480p','720p']
