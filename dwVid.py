@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pytube import YouTube
 from pytube.helpers import safe_filename
 from winreg import OpenKey

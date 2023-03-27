@@ -1,4 +1,5 @@
-#!python3
+#!/usr/bin/env python3
+
 # Usage -
 # 1. open cmd
 # 2. cd to the folder where these files are present
