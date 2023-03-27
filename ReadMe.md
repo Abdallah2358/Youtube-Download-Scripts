@@ -14,13 +14,16 @@ pip install youtube-dl
 ```
 
 # Usage 
-## Single Video 
+## Download Single Video  
+- Run this command in console 
 ```ps
 python dwVid.py
 ```
+- Follow instruction
 
-## PlayList
+## Download a full PlayList
+- Run this command in console 
 ```ps
 python dwPlayList.py
 ```
-
+- Follow instruction
