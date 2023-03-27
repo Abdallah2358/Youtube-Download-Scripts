@@ -10,7 +10,7 @@ def get_Downloads_path()->str:
         return QueryValueEx(key, '{374DE290-123F-4565-9164-39C4925E467B}')[0]
 
 def choose_res() ->str:
-    res_list = ['360p','480p','720p']
+    res_list = ['360p','720p']
     print('\nCHOOSE The Resolution of the Videos\n')
     for i in range(3):
         print(str(i+1)+".",res_list[i])

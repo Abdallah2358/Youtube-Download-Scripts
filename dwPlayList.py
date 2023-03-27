@@ -69,7 +69,7 @@ BASE_DIR = os.getcwd()
 print('WELCOME TO PLAYLIST DOWNLOADER DEVELOPED BY - https://github.com/Abdallah2358/')
 url = str(input("Please Enter PlayList URL\n"))
 def choose_res() ->str:
-    res_list = ['360p','480p','720p']
+    res_list = ['360p','720p']
     print('\nCHOOSE The Resolution of the Videos\n')
     for i in range(4):
         print(str(i+1)+".",res_list[i])
