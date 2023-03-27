@@ -1,6 +1,5 @@
 from pytube import YouTube
 from pytube.helpers import safe_filename
-from pathlib import Path
 from winreg import OpenKey
 from winreg import HKEY_CURRENT_USER
 from winreg import QueryValueEx

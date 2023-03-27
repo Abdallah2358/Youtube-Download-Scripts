@@ -8,11 +8,9 @@
 
 import os
 from pytube import YouTube
-import random
 import requests
 import re
 import string
-from time import sleep
 from pytube.helpers import safe_filename
 
 #imp functions
@@ -25,17 +23,12 @@ def foldertitle(url):
     except:
         print('no internet')
         return False
-
-    plain_text = res.text
-
     if 'list=' in url:
         eq = url.rfind('=') + 1
         cPL = url[eq:]
-
     else:
         print('Incorrect attempt.')
         return False
-
     return cPL
 
 
