@@ -31,7 +31,7 @@ try:
     if len(fName) ==0:
         fName = vid.default_filename
     else:
-        fName =safe_filename(fName)
+        fName =safe_filename(fName)+".mp4"
     print('Downloading. . . ' + fName + ' and its file size -> ' + str(round(vid.filesize / (1024 * 1024), 2)) + ' MB.')
     vid.download(dwDir, fName  ,max_retries=10)
     print('Video Downloaded')
