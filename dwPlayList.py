@@ -66,8 +66,8 @@ def link_snatcher(url):
 BASE_DIR = os.getcwd()
 
 print('WELCOME TO PLAYLIST DOWNLOADER DEVELOPED BY - https://github.com/Abdallah2358/')
+url = str(input("Please Enter PlayList URL\n"))
 def choose_res() ->str:
-    url = str(input("Please Enter PlayList URL\n"))
     res_list = ['360p','480p','720p']
     print('\nCHOOSE The Resolution of the Videos\n')
     for i in range(4):
