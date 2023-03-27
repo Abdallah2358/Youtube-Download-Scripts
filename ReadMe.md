@@ -1,8 +1,13 @@
 # Prerequisites 
-- python 3
+## Interpreter
+- [python 3](https://www.python.org/downloads/)
 
-# pip
-```ps
+## Pip Libraries
+- pytube
+- requests
+- youtube-dl
+### Installation Commands
+```
 pip install pytube
 pip install requests
 pip install youtube-dl
