@@ -12,7 +12,7 @@ def get_Downloads_path()->str:
 def choose_res() ->str:
     res_list = ['360p','720p']
     print('\nCHOOSE The Resolution of the Videos\n')
-    for i in range(3):
+    for i in range(len(res_list)):
         print(str(i+1)+".",res_list[i])
     res_choice = int(input("Enter Resolution Number : "))-1
     return res_list[res_choice]
