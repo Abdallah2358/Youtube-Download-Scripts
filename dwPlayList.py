@@ -118,7 +118,7 @@ while len(links)>0:
     prefix = '' 
     try:
         yt = YouTube(links[0])
-        if string[:1].isdigit():
+        if not string[:1].isdigit():
             prefix = str(count)+"."
         main_title =prefix+ safe_filename(yt.title)
         main_title = main_title + '.mp4'
