@@ -118,7 +118,7 @@ while len(links)>0:
     prefix = '' 
     try:
         yt = YouTube(links[0])
-        if not string[:1].isdigit():
+        if not yt.title[:1].isdigit():
             prefix = str(count)+"."
         main_title =prefix+ safe_filename(yt.title)
         main_title = main_title + '.mp4'
@@ -128,7 +128,7 @@ while len(links)>0:
     except:
         print('connection problem..unable to fetch video info')
         print('Will try again')
-
+        continue
 
     if main_title not in x:  
         if user_res == '360p' or user_res == '720p':
